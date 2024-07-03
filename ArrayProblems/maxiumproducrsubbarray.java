@@ -5,7 +5,7 @@ public class maxiumproducrsubbarray {
   long res = 1, max = 1, min = 1;
   for (int i = 0; i < n; i++) {
    if (arr[i] > 0) {
-    max += arr[i];
+    max *= arr[i];
     min = Math.min(arr[i] * min, 1);
 
    } else if (arr[i] == 0)
