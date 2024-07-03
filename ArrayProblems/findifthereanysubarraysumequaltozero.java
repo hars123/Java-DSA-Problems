@@ -20,9 +20,8 @@ public class findifthereanysubarraysumequaltozero {
  }
 
  public static void main(String[] args) {
-  int arr[] = { 4, 2, -3, 1, 6 };
+  int arr[] = { 4, 2, -3, 1, 6};
   System.out.println(SUBARRAYEXISTS(arr));
-  
 
  }
 }
