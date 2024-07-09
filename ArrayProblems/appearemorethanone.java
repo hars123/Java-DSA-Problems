@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.Map;
 
 public class appearemorethanone {
 
@@ -13,10 +14,19 @@ public class appearemorethanone {
     y.put(a[i], count + 1);
    }
   }
+  for (Map.Entry m : y.entrySet()) {
+   Integer temp = (Integer) m.getValue();
+   if (temp > x)
+    System.out.println(m.getKey());
+  }
 
  }
 
  public static void main(String[] args) {
+  int a[] = { 1, 1, 2, 2, 3, 5, 4, 2, 2, 3, 1, 1, 1 };
+  int n = a.length;
+  int k = 4;
+  morethanNK(a, n, k);
 
  }
 }
