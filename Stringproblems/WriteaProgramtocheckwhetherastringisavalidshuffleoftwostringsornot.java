@@ -39,11 +39,8 @@ public class WriteaProgramtocheckwhetherastringisavalidshuffleoftwostringsornot 
             }
             k++;
             
-        }if(i <first.length() || j<second.length())
-        {
-            return false;
-
         }
+        if(i <first.length() || j<second.length()) return false;
         return true;
 
 
