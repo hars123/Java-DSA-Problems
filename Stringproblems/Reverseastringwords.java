@@ -4,7 +4,7 @@ public class Reverseastringwords {
         String words[] = s.trim().split("\\s+");
         StringBuilder ans  = new StringBuilder();
 
-        for(int j = words.length-1;j>=0;j--){
+        for(int j = words.length-1; j>=0; j--){
             ans.append(words[j]);
             if(j != 0) ans.append(" ");
 
