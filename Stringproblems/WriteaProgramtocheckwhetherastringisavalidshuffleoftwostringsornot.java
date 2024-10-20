@@ -10,7 +10,6 @@ public class WriteaProgramtocheckwhetherastringisavalidshuffleoftwostringsornot 
             return true;
         }
     }
-
     static String sortString(String str)
     {
         char [] charArray = str.toCharArray();
@@ -19,7 +18,6 @@ public class WriteaProgramtocheckwhetherastringisavalidshuffleoftwostringsornot 
         return str;
 
     }
-
     static boolean shuffel(String first, String second, String result)
     {
         first = sortString(first);
@@ -37,8 +35,7 @@ public class WriteaProgramtocheckwhetherastringisavalidshuffleoftwostringsornot 
                 return false;
                 
             }
-            k++;
-            
+            k++;          
         }
         if(i <first.length() || j<second.length()) return false;
         return true;
