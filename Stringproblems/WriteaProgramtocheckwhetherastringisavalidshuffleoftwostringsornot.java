@@ -16,7 +16,6 @@ public class WriteaProgramtocheckwhetherastringisavalidshuffleoftwostringsornot 
         Arrays.sort(charArray);
         str = String.valueOf(charArray);
         return str;
-
     }
     static boolean shuffel(String first, String second, String result)
     {
@@ -39,8 +38,6 @@ public class WriteaProgramtocheckwhetherastringisavalidshuffleoftwostringsornot 
         }
         if(i <first.length() || j<second.length()) return false;
         return true;
-
-
     }
     public static void main(String[] args) {
         String first = "XY";
@@ -53,10 +50,6 @@ public class WriteaProgramtocheckwhetherastringisavalidshuffleoftwostringsornot 
             }else{
                 System.out.println(result + " is not a valid shuffel");
             }
-
-        }
-
-        
-    }
-    
+        }       
+    }   
 }
