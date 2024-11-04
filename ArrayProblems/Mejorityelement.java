@@ -1,5 +1,4 @@
 import java.util.HashMap;
-
 public class Mejorityelement {
     static int Majorityelementingivenarray(int arr[]){
         HashMap<Integer, Integer>hash = new HashMap<>();
@@ -16,14 +15,9 @@ public class Mejorityelement {
 
         return res;
     }
-   
-
     public static void main(String[] args) {
         int arr[] = {1,3,4,4,3,2,2,2,2,2};
         System.out.println("Your element that appear maximum times : " + Majorityelementingivenarray(arr));
        
     }
 }
-
-
-
