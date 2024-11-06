@@ -13,7 +13,6 @@ public class UnionandIntersection {
             while (leftpointer > 0 && leftpointer<firstarray.length && firstarray[leftpointer] == firstarray[leftpointer-1]) {
                 leftpointer++;    
             }
-
             while (rightpointer > 0 && rightpointer<secondarray.length && secondarray[rightpointer] == secondarray[rightpointer-1]) {
                 rightpointer++;    
             }
