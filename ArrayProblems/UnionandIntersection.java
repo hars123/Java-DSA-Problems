@@ -98,6 +98,7 @@ public class UnionandIntersection {
         Union(firstarray, secondarray);
         System.out.println("Intersection of your firstarray and secondarray :");
         // Intersection(firstarray, secondarray);
+        Intersection(firstarray, secondarray);
 
     }
     
