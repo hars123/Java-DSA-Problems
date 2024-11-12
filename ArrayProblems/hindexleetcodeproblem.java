@@ -1,5 +1,4 @@
 public class hindexleetcodeproblem {
-
     public int hIndex(int[] citations) {
         int papers = citations.length;
         int[] citationBuckets = new int[papers + 1];
