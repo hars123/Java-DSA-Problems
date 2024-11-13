@@ -18,6 +18,7 @@ public class findcommonelementinasortedarrays {
    } else {
     k++;
    }
+   
   }
 
  }
