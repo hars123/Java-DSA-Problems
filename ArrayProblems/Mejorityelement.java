@@ -16,22 +16,35 @@ public class Mejorityelement {
     //     return res;
     // }
 
-     static int majorityelement(int arr[]){
-        HashMap<Integer,Integer>hash = new HashMap<>();
-        int res =0;
-        int mej =0;
+    //  static int majorityelement(int arr[]){
+    //     HashMap<Integer,Integer>hash = new HashMap<>();
+    //     int res =0;
+    //     int mej =0;
 
-        for(int n: arr){
+    //     for(int n: arr){
+    //         hash.put(n, 1+hash.getOrDefault(n, 0));
+    //         if(hash.get(n)> mej){
+    //             res =n;
+    //             mej = hash.get(n);
+
+    //         }
+    //     }
+    //         return res;
+    //  }
+
+       static int majorityelement(int arr[]){
+        HashMap<Integer, Integer>hash = new HashMap<>();
+        int res = 0;
+        int mej = 0;
+        for(int n : arr){
             hash.put(n, 1+hash.getOrDefault(n, 0));
-            if(hash.get(n)> mej){
-                res =n;
-                mej = hash.get(n);
+            res = n;
+            mej = hash.get(n);
 
-            }
+
         }
-            return res;
-     }
-
+        return res;
+       }
 
 
     public static void main(String[] args) {
