@@ -14,7 +14,10 @@ class Solution {
         
         while (right < n) {
             // Check if current sequence is not consecutive
-            boolean isNotConsecutive = nums[right] - nums[right-1] != 1;
+            boolean isNotConsecutive = nums[right] - nums[
+            right-1] != 1;
+
+            
             
             if (isNotConsecutive) {
                 // Mark invalid sequences
