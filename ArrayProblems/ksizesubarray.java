@@ -25,6 +25,7 @@ class Solution {
                 }
                 left = right;
             }
+            
             // Found valid k-length sequence
             else if (right - left == k - 1) {
                 resultList.add(nums[right]);
