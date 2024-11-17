@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 class Solution {
     /**
      * Find the Power of K-Size Subarrays 
@@ -8,7 +10,7 @@ class Solution {
             return nums;
         }
         int n = nums.length;
-        List<Integer> resultList = new ArrayList<>();
+        ArrayList<Integer>resultList = new ArrayList<>();
         int left = 0;
         int right = 1;
         
@@ -16,9 +18,6 @@ class Solution {
             // Check if current sequence is not consecutive
             boolean isNotConsecutive = nums[right] - nums[
             right-1] != 1;
-
-            
-            
             if (isNotConsecutive) {
                 // Mark invalid sequences
                 while (left < right && left + k - 1 < n) {
