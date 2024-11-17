@@ -7,8 +7,6 @@ class Solution {
         if (k == 1) {
             return nums;
         }
-        
-        
         int n = nums.length;
         List<Integer> resultList = new ArrayList<>();
         int left = 0;
