@@ -13,7 +13,6 @@ class Solution {
         ArrayList<Integer>resultList = new ArrayList<>();
         int left = 0;
         int right = 1;
-        
         while (right < n) {
             // Check if current sequence is not consecutive
             boolean isNotConsecutive = nums[right] - nums[
