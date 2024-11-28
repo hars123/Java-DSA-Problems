@@ -1,8 +1,4 @@
 import java.util.HashMap;
-
-/**
- * findallpairssumequaltothenumber
- */
 public class findallpairssumequaltothenumber {
  static int getpairsCount(int arr[], int sum) {
   int n = arr.length;
