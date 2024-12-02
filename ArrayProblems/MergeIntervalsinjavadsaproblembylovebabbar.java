@@ -10,9 +10,17 @@ public class MergeIntervalsinjavadsaproblembylovebabbar {
         int newinterval[] = intervals[0];
         result.add(newinterval);
 
+        // for(int interval[] : intervals){
+        //     if(interval[0] <= newinterval[1])
+        //     newinterval[1] = Math.max(newinterval[1],interval[1]);
+        //     else{
+        //         newinterval = interval;
+        //         result.add(newinterval);
+        //     }
+        // }
         for(int interval[] : intervals){
             if(interval[0] <= newinterval[1])
-            newinterval[1] = Math.max(newinterval[1],interval[1]);
+            newinterval[1] = Math.max(newinterval[1], interval[1]);
             else{
                 newinterval = interval;
                 result.add(newinterval);
