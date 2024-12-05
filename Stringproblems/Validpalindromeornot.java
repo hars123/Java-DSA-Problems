@@ -2,7 +2,6 @@
  * Validpalindromeornot
  */
 public class Validpalindromeornot {
-
     public static  boolean Palindrome(String s){
 
         if(s.isEmpty()){
