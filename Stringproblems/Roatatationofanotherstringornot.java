@@ -9,4 +9,5 @@ public class Roatatationofanotherstringornot {
             System.out.println(" Not A Rotation ");
         }  
     }
+    
 }
