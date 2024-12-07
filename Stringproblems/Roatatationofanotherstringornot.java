@@ -10,7 +10,7 @@ public class Roatatationofanotherstringornot {
             System.exit(0);
         }  
 
-        String S3 = S1+S1;
+        String S3 = S1+S1; 
         if(S3.indexOf(S2) != -1){
             System.out.println("String is Roatation");
 
