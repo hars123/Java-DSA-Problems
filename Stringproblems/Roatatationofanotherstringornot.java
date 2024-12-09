@@ -8,6 +8,7 @@ public class Roatatationofanotherstringornot {
         if(S1.length() != S2.length()){
             System.out.println(" Not A Rotation ");
             System.exit(0);
+            
         }  
 
         String S3 = S1+S1; 
