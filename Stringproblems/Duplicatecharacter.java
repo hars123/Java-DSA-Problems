@@ -11,13 +11,21 @@ public class Duplicatecharacter {
         //     System.out.println(s.charAt(i));
         // } 
 
+          // String s = "HarsHit";
+          // HashSet seen = new HashSet<>();
+          // for(int i = 0; i<s.length();i++){
+          //   if(!seen.add(s.charAt(i)))
+          //   System.out.println(s.charAt(i));
+          // }
+          
           String s = "HarsHit";
-          HashSet seen = new HashSet<>();
-          for(int i = 0; i<s.length();i++){
-            if(!seen.add(s.charAt(i)))
+          HashSet structure = new HashSet<>();
+         for (int i = 0; i < s.length(); i++) {
+          if(!structure.add(s.charAt(i))){
             System.out.println(s.charAt(i));
           }
           
+         }
     }
     
 }
