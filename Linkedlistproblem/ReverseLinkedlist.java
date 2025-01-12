@@ -1,4 +1,4 @@
-public class SimpleLinkedList {
+public class ReverseLinkedlist {
     public static class Node{
         int data;
         Node next;
