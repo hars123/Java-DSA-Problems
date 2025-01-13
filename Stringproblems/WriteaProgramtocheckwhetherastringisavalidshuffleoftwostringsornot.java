@@ -20,6 +20,9 @@ public class WriteaProgramtocheckwhetherastringisavalidshuffleoftwostringsornot 
     static boolean shuffel(String first, String second, String result)
     {
         first = sortString(first);
+
+
+        
         second = sortString(second);
         result = sortString(result);
         int i = 0, j = 0, k = 0;
