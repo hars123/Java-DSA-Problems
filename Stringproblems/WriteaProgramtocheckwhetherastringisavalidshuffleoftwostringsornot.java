@@ -2,6 +2,7 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 import javax.print.DocFlavor.STRING;
 
+
 public class WriteaProgramtocheckwhetherastringisavalidshuffleoftwostringsornot {
     public static boolean checklength(String first, String second, String result){
         if(first.length() + second.length() != result.length()){
