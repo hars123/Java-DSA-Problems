@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class Solution {
+public class ksizesubarray {
     /**
      * Find the Power of K-Size Subarrays 
      */
