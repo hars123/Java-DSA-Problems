@@ -22,7 +22,6 @@ public class Validpalindromeornot {
                 }
                 start++;
                 last--;
-                
             }
          
         }
