@@ -30,7 +30,7 @@ public class Mejorityelement {
 
     static int Mejorityelementingivenarray(int arr[]){
         HashMap<Integer,Integer>hashmap = new HashMap<>();
-        int res = 0, mej =0;
+        int res = 0, mej = 0;
         for(int n : arr){
             hashmap.put(n, 1+hashmap.getOrDefault(n,0));
             res = n;
