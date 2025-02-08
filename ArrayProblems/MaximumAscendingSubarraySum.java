@@ -16,8 +16,7 @@ public class MaximumAscendingSubarraySum {
     }
  public static void main(String[] args) {
     int arr[] = {10,20,30,5,10,50};
-    System.out.println(MaximumAscendingSubarraySum(arr));
-    
+    System.out.println(MaximumAscendingSubarraySum(arr));   
  }
     
 }
