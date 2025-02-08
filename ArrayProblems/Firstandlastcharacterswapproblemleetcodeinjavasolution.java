@@ -15,8 +15,6 @@ public class Firstandlastcharacterswapproblemleetcodeinjavasolution {
                 count++;
                 set1.add(ch1);
                 set2.add(ch2);
-
-
             }
             if(count > 2) return false;
 
