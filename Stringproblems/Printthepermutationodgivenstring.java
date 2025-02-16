@@ -1,7 +1,6 @@
 // Print the all permutation of given string 
 
 public class Printthepermutationodgivenstring {
-
     public static void printpermutation(String str, String current ){
         if(str.length() == 0){
             System.out.println(current);
