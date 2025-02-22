@@ -23,11 +23,8 @@
        
 //     }
 // }
-
 import java.util.HashMap;
-
 public class Mejorityelement {
-
     static int Mejorityelementingivenarray(int arr[]){
         HashMap<Integer,Integer>hashmap = new HashMap<>();
         int res = 0, mej = 0;
@@ -36,7 +33,6 @@ public class Mejorityelement {
             res = n;
             mej = hashmap.get(n);
         }
-
         return res;
     }
 
