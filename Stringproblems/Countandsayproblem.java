@@ -7,7 +7,7 @@ public class Countandsayproblem {
         while(i<n){
             sb = convert(sb);
             i++;
-            // sb = s;
+            
         }
         return sb.toString();
     }
