@@ -1,5 +1,5 @@
-class Solution {
-    public boolean isPalindrome(String s) {
+public class ispalindromeornot {
+	public  boolean IsPalindrome(String s) {
         if (s.isEmpty()) {
         	return true;
         }
@@ -22,4 +22,10 @@ class Solution {
         }
         return true;
     }
+
+	public static void main(String[] args) {
+		String sentence = "Hello everyone whats going on";
+		Ispalindromeornot(sentence);
+		
+	}
 }

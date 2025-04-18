@@ -5,7 +5,7 @@ public class ksizesubarray {
      * Find the Power of K-Size Subarrays 
      */
     public int[] resultsArray(int[] nums, int k) {
-        // Skip if k is 1
+        // Skip if k is 1.............
         if (k == 1) {
             return nums;
         }
