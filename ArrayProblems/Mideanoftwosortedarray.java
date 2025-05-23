@@ -14,7 +14,7 @@ public class Mideanoftwosortedarray {
     while (i<n && j< n) {
         if(arr[i] < arr2[j]) merged[k++] = arr[i++];
         else merged[k++] = arr2[j++];  
-    }
+    }  
     while (i<n) merged[k++] = arr[i++];
     while(j<n) merged[k++] = arr2[j++];
     return (merged[n-1] + merged[n]) / 2;

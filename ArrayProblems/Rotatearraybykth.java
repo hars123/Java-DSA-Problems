@@ -24,7 +24,7 @@ public class Rotatearraybykth {
 
     public static void main(String[] args) {
         int arr[] = {1,2,3};
-        rotate(arr, 1);
+        rotate(arr, 2);
         printarray(arr );
 
     
